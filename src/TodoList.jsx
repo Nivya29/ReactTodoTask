@@ -13,7 +13,7 @@ const TodoList = ({ todos, setTodos, filter, setFilter }) => {
         setTodos(filteredTodos);
     };
 
-    // Filter the todos based on the selected filter
+    
     const filteredTodos = todos.filter((todo) => {
         if (filter === 'all') {
             return true;
